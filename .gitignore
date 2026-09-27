@@ -1,0 +1,22 @@
+# Variables de entorno con contraseñas reales
+.env
+*.env
+
+# Certificados SSL / TLS y claves privadas
+*.crt
+*.key
+*.pem
+
+# Datos persistentes de Docker / Base de datos local
+db_data/
+nextcloud_data/
+data/
+
+# Archivos de registro y temporales
+*.log
+*.tmp
+
+# Archivos de sistema / editores
+.DS_Store
+.vscode/
+.idea/
